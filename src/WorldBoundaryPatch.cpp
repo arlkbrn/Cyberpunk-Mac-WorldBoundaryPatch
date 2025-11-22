@@ -8,7 +8,7 @@ namespace WorldBoundaryPatch
 
 namespace Addresses
 {
-    constexpr uintptr_t WorldBoundarySystem_Tick = 0x1027ac2cc - 0x100000000;
+    constexpr uintptr_t WorldBoundarySystem_Tick = 0x103d69c44 - 0x100000000;
 }
 
 static gameWorldBoundarySystemTick_t real_Tick = nullptr; // Set by Dobby
